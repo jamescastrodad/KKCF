@@ -1,0 +1,82 @@
+.logo {
+    height: 100px;
+    width: 120px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-image: url("https://lh3.googleusercontent.com/pw/AP1GczP-hnvNVwRS7Ye1IexpLAicSd2ns-hjQlpUkLvozpFX8yiit6VikO-nZ4YQugq0aQvL90MyegEvQtpXURHUh7nEx7VHIhSK4AWw5Dqx_VP8CaDGf_Q=w2400");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  }
+  
+  .row {
+    display: flex;
+  }
+  ul {
+    display: flex;
+  }
+  .home {
+    list-style-type: none;
+    margin-top: 65px;
+  }
+  .divinevision { 
+    list-style-type: none;
+    margin-top: 65px;
+    margin-left: 25px;
+  }
+
+  a {
+    font-family: century gothic; 
+  }
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.toggle-container {
+    text-align: center;
+}
+
+#toggle-img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 700px;
+    height: auto;
+    border: 2px solid black;
+    display: block;
+    max-height: 380px;
+}
+
+#toggle-btn {
+    background-color: black;
+    color: white;
+    font-family: century gothic; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#toggle-btn:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid;
+}
